@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "family_indices",
+  "info": {
+    "name": "family_Index"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "family_name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

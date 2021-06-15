@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "plants_images",
+  "info": {
+    "name": "plants_image",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "plants_name": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "plants_idplant": {
+      "model": "plants"
+    }
+  }
+}

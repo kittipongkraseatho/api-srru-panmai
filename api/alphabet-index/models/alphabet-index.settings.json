@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "alphabet_indices",
+  "info": {
+    "name": "alphabet_Index"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "alphabet_name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

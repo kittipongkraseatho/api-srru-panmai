@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/alphabet-indices",
+      "handler": "alphabet-index.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/alphabet-indices/count",
+      "handler": "alphabet-index.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/alphabet-indices/:id",
+      "handler": "alphabet-index.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/alphabet-indices",
+      "handler": "alphabet-index.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/alphabet-indices/:id",
+      "handler": "alphabet-index.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/alphabet-indices/:id",
+      "handler": "alphabet-index.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

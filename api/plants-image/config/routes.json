@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/plants-images",
+      "handler": "plants-image.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/plants-images/count",
+      "handler": "plants-image.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/plants-images/:id",
+      "handler": "plants-image.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/plants-images",
+      "handler": "plants-image.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/plants-images/:id",
+      "handler": "plants-image.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/plants-images/:id",
+      "handler": "plants-image.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "plants",
+  "info": {
+    "name": "plants",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "scien_name": {
+      "type": "string"
+    },
+    "other_name": {
+      "type": "string"
+    },
+    "characteristics": {
+      "type": "richtext"
+    },
+    "distribution": {
+      "type": "richtext"
+    },
+    "flowering_time": {
+      "type": "text"
+    },
+    "uses_utilization": {
+      "type": "text"
+    },
+    "reference": {
+      "type": "text"
+    },
+    "qr_code": {
+      "type": "string"
+    },
+    "views": {
+      "type": "integer",
+      "default": 0
+    },
+    "family_Index_idfamily_index": {
+      "model": "family-index"
+    },
+    "category_idcategory": {
+      "model": "category"
+    },
+    "alphabet_index_idalphabet_index": {
+      "model": "alphabet-index"
+    },
+    "users_iduser": {
+      "plugin": "users-permissions",
+      "model": "user"
+    }
+  }
+}
