@@ -1,13 +1,14 @@
 {
   "kind": "collectionType",
-  "collectionName": "alphabet_indices",
+  "collectionName": "alphabet_Indexs",
   "info": {
-    "name": "alphabet_Index"
+    "name": "alphabet_Indexs",
+    "description": ""
   },
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {

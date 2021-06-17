@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "plants_images",
   "info": {
-    "name": "plants_image",
+    "name": "plants_images",
     "description": ""
   },
   "options": {

@@ -1,13 +1,14 @@
 {
   "kind": "collectionType",
-  "collectionName": "categories",
+  "collectionName": "categorys",
   "info": {
-    "name": "category"
+    "name": "categorys",
+    "description": ""
   },
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
