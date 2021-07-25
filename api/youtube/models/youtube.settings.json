@@ -16,8 +16,9 @@
       "type": "string",
       "required": true
     },
-    "plants_idplants": {
-      "model": "plants"
+    "plants_idplant": {
+      "model": "plants",
+      "via": "youtube"
     }
   }
 }

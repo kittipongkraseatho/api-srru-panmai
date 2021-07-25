@@ -27,9 +27,6 @@
     "distribution": {
       "type": "richtext"
     },
-    "flowering_time": {
-      "type": "text"
-    },
     "uses_utilization": {
       "type": "text"
     },
@@ -55,6 +52,66 @@
     "users_iduser": {
       "plugin": "users-permissions",
       "model": "user"
+    },
+    "genera": {
+      "type": "string"
+    },
+    "species": {
+      "type": "string"
+    },
+    "vernacular_name": {
+      "type": "string"
+    },
+    "flowering_time": {
+      "type": "time"
+    },
+    "display_area": {
+      "type": "string"
+    },
+    "properties": {
+      "type": "richtext"
+    },
+    "plant_part_used": {
+      "type": "richtext"
+    },
+    "how_to_use": {
+      "type": "richtext"
+    },
+    "caution": {
+      "type": "richtext"
+    },
+    "way_of_life_value": {
+      "type": "richtext"
+    },
+    "economic_value": {
+      "type": "richtext"
+    },
+    "belief": {
+      "type": "string"
+    },
+    "other_information": {
+      "type": "text"
+    },
+    "informant": {
+      "type": "text"
+    },
+    "keyword": {
+      "type": "string"
+    },
+    "latitude": {
+      "type": "float",
+      "default": 0
+    },
+    "longitude": {
+      "type": "float",
+      "default": 0
+    },
+    "geographic_coordinates": {
+      "type": "string"
+    },
+    "youtube": {
+      "via": "plants_idplant",
+      "model": "youtube"
     }
   }
 }
