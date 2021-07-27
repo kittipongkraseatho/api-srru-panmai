@@ -16,7 +16,8 @@
       "type": "string"
     },
     "blog_dateil": {
-      "type": "richtext"
+      "type": "richtext",
+      "default": "<h1>กรอกรายอะเอียดบทความ!</h1>"
     },
     "blog_sub_title": {
       "type": "string"
@@ -30,6 +31,10 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "users_permissions_user": {
+      "plugin": "users-permissions",
+      "model": "user"
     }
   }
 }
