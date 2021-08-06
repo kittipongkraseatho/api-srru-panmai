@@ -21,18 +21,6 @@
     "other_name": {
       "type": "string"
     },
-    "characteristics": {
-      "type": "richtext"
-    },
-    "distribution": {
-      "type": "richtext"
-    },
-    "uses_utilization": {
-      "type": "text"
-    },
-    "reference": {
-      "type": "text"
-    },
     "qr_code": {
       "type": "string"
     },
@@ -42,9 +30,6 @@
     },
     "family_Index_idfamily_index": {
       "model": "family-index"
-    },
-    "category_idcategory": {
-      "model": "category"
     },
     "alphabet_index_idalphabet_index": {
       "model": "alphabet-index"
@@ -62,7 +47,7 @@
     "vernacular_name": {
       "type": "string"
     },
-    "flowering_time": {
+    "flowering_fruitingseason": {
       "type": "time"
     },
     "display_area": {
@@ -112,6 +97,27 @@
     "youtube": {
       "via": "plants_idplant",
       "model": "youtube"
+    },
+    "habit": {
+      "type": "richtext"
+    },
+    "distribution": {
+      "type": "richtext"
+    },
+    "pictures": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "reference": {
+      "type": "string"
     }
   }
 }

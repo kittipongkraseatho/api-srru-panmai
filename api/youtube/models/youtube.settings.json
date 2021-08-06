@@ -17,8 +17,8 @@
       "required": true
     },
     "plants_idplant": {
-      "model": "plants",
-      "via": "youtube"
+      "via": "youtube",
+      "model": "plants"
     }
   }
 }
