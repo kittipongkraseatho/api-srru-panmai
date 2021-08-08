@@ -48,7 +48,8 @@
       "type": "string"
     },
     "flowering_fruitingseason": {
-      "type": "time"
+      "type": "time",
+      "default": "00:00:00"
     },
     "display_area": {
       "type": "string"
