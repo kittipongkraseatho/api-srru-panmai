@@ -64,6 +64,12 @@
     },
     "contact_us_idcontact_us": {
       "model": "contact-us"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "address": {
+      "type": "richtext"
     }
   }
 }
