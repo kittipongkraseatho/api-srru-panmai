@@ -35,6 +35,23 @@
     "users_permissions_user": {
       "plugin": "users-permissions",
       "model": "user"
+    },
+    "blog_content": {
+      "type": "enumeration",
+      "enum": [
+        "content_1",
+        "content_2",
+        "content_3",
+        "content_4",
+        "content_5",
+        "content_6",
+        "content_youtube",
+        "draft"
+      ],
+      "default": "draft"
+    },
+    "blog_youtube": {
+      "type": "richtext"
     }
   }
 }
