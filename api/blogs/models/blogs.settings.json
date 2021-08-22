@@ -52,6 +52,14 @@
     },
     "blog_youtube": {
       "type": "richtext"
+    },
+    "blog_type": {
+      "type": "enumeration",
+      "enum": [
+        "blog",
+        "youtube"
+      ],
+      "default": "blog"
     }
   }
 }
