@@ -15,6 +15,14 @@
     "alphabet_name": {
       "type": "string",
       "required": true
+    },
+    "alphabet_language": {
+      "type": "enumeration",
+      "enum": [
+        "TH",
+        "EN"
+      ],
+      "default": "TH"
     }
   }
 }

@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "setting_footers",
+  "info": {
+    "name": "setting_footer"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "footer_address": {
+      "type": "richtext"
+    }
+  }
+}
