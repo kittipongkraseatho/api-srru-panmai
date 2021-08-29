@@ -33,6 +33,14 @@
       }
     },
     {
+      "method": "POST",
+      "path": "/plants/dashboard",
+      "handler": "plants.dashboard",
+      "config": {
+        "policies": []
+      }
+    },
+    {
       "method": "PUT",
       "path": "/plants/:id",
       "handler": "plants.update",
