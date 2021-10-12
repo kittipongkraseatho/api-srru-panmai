@@ -15,10 +15,6 @@
     "url": {
       "type": "string",
       "required": true
-    },
-    "plants_idplant": {
-      "via": "youtube",
-      "model": "plants"
     }
   }
 }

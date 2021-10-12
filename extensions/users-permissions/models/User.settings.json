@@ -62,9 +62,6 @@
     "name": {
       "type": "string"
     },
-    "contact_us_idcontact_us": {
-      "model": "contact-us"
-    },
     "phone": {
       "type": "string"
     },
