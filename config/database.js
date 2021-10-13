@@ -6,7 +6,7 @@ module.exports = ({ env }) => ({
       settings: {
         client: 'mysql',
         host: env('DATABASE_HOST', '103.13.229.230'),
-        port: env.int('DATABASE_PORT', 1340),
+        port: env.int('DATABASE_PORT', 3306),
         database: env('DATABASE_NAME', 'admin_panmai'),
         username: env('DATABASE_USERNAME', 'admin'),
         password: env('DATABASE_PASSWORD', 'wandeevps'),
