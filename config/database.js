@@ -5,11 +5,11 @@ module.exports = ({ env }) => ({
       connector: 'bookshelf',
       settings: {
         client: 'mysql',
-        host: env('DATABASE_HOST', '127.0.0.1'),
-        port: env.int('DATABASE_PORT', 3306),
-        database: env('DATABASE_NAME', 'srru-panmai'),
-        username: env('DATABASE_USERNAME', 'root'),
-        password: env('DATABASE_PASSWORD', ''),
+        host: env('DATABASE_HOST', '103.13.229.230'),
+        port: env.int('DATABASE_PORT', 1340),
+        database: env('DATABASE_NAME', 'admin_panmai'),
+        username: env('DATABASE_USERNAME', 'admin'),
+        password: env('DATABASE_PASSWORD', 'wandeevps'),
         ssl: env.bool('DATABASE_SSL', false),
       },
       options: {}
