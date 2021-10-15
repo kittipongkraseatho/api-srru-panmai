@@ -31,9 +31,6 @@
     "family_Index_idfamily_index": {
       "model": "family-index"
     },
-    "alphabet_index_idalphabet_index": {
-      "model": "alphabet-index"
-    },
     "users_iduser": {
       "plugin": "users-permissions",
       "model": "user"
@@ -116,6 +113,9 @@
       "type": "string"
     },
     "youtube": {
+      "type": "string"
+    },
+    "alphabet_index_idalphabet_index": {
       "type": "string"
     }
   }
