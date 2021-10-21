@@ -117,6 +117,9 @@
     },
     "alphabet_index_idalphabet_index": {
       "type": "string"
+    },
+    "alphabet_index_idalphabet_index_en": {
+      "type": "string"
     }
   }
 }
