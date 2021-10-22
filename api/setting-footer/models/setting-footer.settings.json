@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "setting_footers",
   "info": {
-    "name": "setting_footer"
+    "name": "setting_footer",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -13,6 +14,18 @@
   "attributes": {
     "footer_address": {
       "type": "richtext"
+    },
+    "footer_link_facebook": {
+      "type": "string"
+    },
+    "footer_link_twitter": {
+      "type": "string"
+    },
+    "footer_link_youtube": {
+      "type": "string"
+    },
+    "footer_link_instagram": {
+      "type": "string"
     }
   }
 }
