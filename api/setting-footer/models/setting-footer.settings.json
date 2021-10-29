@@ -26,6 +26,12 @@
     },
     "footer_link_instagram": {
       "type": "string"
+    },
+    "footer_address2": {
+      "type": "richtext"
+    },
+    "footer_address3": {
+      "type": "richtext"
     }
   }
 }
